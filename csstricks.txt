@@ -1,0 +1,18 @@
+/##################
+*CSS tricks
+##################
+Div ID Wildcard
+*/
+div[ id*="_5"] {
+	-moz-border-radius: 10px;
+}
+/*Rounded Corners*/
+div[ id*="_5"] {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #c1d82f;
+	background: rgb(220, 233, 139); /* The Fallback */
+	background: rgba(220, 233, 139, 0.5); 
+}
